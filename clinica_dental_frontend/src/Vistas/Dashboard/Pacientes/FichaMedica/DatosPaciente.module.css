@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center; /* Para centrar las tarjetas en el contenedor */
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%; /* Para ajustar el ancho de cada tarjeta */
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.cardDentista {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%; /* Para ajustar el ancho de cada tarjeta */
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 3rem auto;
+    
+}
+
+h3 {
+    
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    color: #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 1rem;
+    width: 100%; /* Asegura que el contenido dentro del grid ocupe todo el ancho */
+    text-align: left; /* Alinear a la izquierda el contenido dentro del grid */
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.field label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.field p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.actionButtons{
+    margin-top:1.5rem;
+}
+
+
+.dialogGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 1rem; /* Espacio entre los campos */
+}

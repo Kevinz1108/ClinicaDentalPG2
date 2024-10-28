@@ -1,0 +1,9 @@
+.home {
+    min-height: 100vh; /* 100% de la altura de la ventana */
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0; /* Asegura que no haya espacios en blanco */
+    padding: 0;
+}

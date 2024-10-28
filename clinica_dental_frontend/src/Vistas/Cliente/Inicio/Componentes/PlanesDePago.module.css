@@ -1,0 +1,19 @@
+.cardContainer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 30%; /* Ajuste de ancho consistente */
+    min-height: 450px; /* Altura mínima consistente */
+  }
+  
+  .cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribución uniforme del contenido */
+    height: 100%; /* Ocupar el 100% de la tarjeta */
+  }
+  

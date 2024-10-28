@@ -1,0 +1,18 @@
+.navbarContainer {
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menuEnd {
+    display: flex;
+    align-items: center;
+}
+
+.p-menubar-root-list {
+    justify-content: center !important; /* Forzar centrado de los elementos */
+    flex-grow: 1;
+}
