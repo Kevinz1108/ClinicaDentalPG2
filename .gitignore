@@ -1,0 +1,13 @@
+# Ignorar node_modules en el frontend
+clinica_dental_frontend/node_modules/
+
+# Ignorar cachés y entornos virtuales en el backend
+clinica_dental_backend/__pycache__/
+clinica_dental_backend/venv/
+
+# Ignorar archivos sensibles y temporales
+*.log
+*.env
+
+# Python cache
+clinica_dental_backend/__pycache__/
